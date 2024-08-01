@@ -1,0 +1,140 @@
+*{
+    font-family: Arial, sans-serif;
+}
+body {
+   
+    background-image: url(Untitled\ design\ \(2\).jpg);
+}
+
+#home-page {
+    text-align: center;
+    margin-top: 100px;
+}
+
+h1 {
+    padding: 30px;
+    border-radius: 5em;
+    width: 95%;
+    display: flex;
+    background-color: peachpuff;
+    color: white;
+    font-weight: 600;
+    justify-content: center;
+    align-items: center;
+}
+h1 span {
+    color: palevioletred;
+}
+
+p {
+    font-size: 20px;
+    color: magenta;
+    font-weight: 800;
+    font-style: normal;
+}
+
+p:hover {
+    text-transform: uppercase;
+}
+.start-btn {
+    background-color: pink;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.start-btn:hover {
+    background-color: plum;
+}
+
+.quiz-page {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: transparent;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.question {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.options {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.options li {
+    margin-bottom: 10px;
+}
+
+.options input[type="radio"] {
+    margin-right: 10px;
+}
+
+.next, .previous, .submit {
+    background-color: #ff009d;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.next:hover, .previous:hover, .submit:hover {
+    background-color: lightpink;
+}
+
+#result-page {
+    display: none;
+    text-align: center;
+    margin-top: 100px;
+}
+h2 {
+    color: #ee4aaf;
+    font-weight: 600;
+   
+    border-radius: 2em;
+}
+.final-score {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.final-message {
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+
+.play-again {
+    background-color: magenta;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.play-again:hover {
+    background-color: lightpink;
+}
+
+@media (max-width: 600px) {
+    .quiz-page {
+        margin: 20px auto;
+        padding: 10px;
+    }
+    .question {
+        font-size: 18px;
+    }
+    .options li {
+        margin-bottom: 5px;
+    }
+}
